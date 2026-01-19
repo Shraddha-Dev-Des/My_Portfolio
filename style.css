@@ -35,15 +35,18 @@ header {
   width: auto;          
   
 }
+
 .words {
   display: inline-block;
   overflow: hidden;
   height: 30px;
-  width: 350px;
   margin-left: 10px;
   position: relative;
   vertical-align: middle;
+  width: auto;          /* ✅ remove fixed width */
+  min-width: 220px;     /* optional safety */
 }
+
 
 .words span {
   line-height: 30px;
@@ -113,4 +116,5 @@ button{
   
 
 }
+
 
