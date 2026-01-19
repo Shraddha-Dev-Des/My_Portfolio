@@ -18,21 +18,22 @@ header {
 .intro-line {
   font-size: 30px;
   margin-top: 20px;
-  display: flex;
-  justify-content: center;
+  display: inline-flex;     
   align-items: center;
   gap: 8px;
 }
 
 .words {
-  display: inline-block;
   position: relative;
   height: 30px;
   overflow: hidden;
+  width: 26ch;             
 }
 
 .words span {
   position: absolute;
+  left: 0;
+  top: 0;
   line-height: 30px;
   white-space: nowrap;
   opacity: 0;
@@ -77,7 +78,7 @@ img{
   width: 20px;
 }
 
-.emailId{
+.emailID{
   display: flex;
   align-items:center;
   gap: 20px;                
@@ -98,6 +99,7 @@ button{
   
 
 }
+
 
 
 
