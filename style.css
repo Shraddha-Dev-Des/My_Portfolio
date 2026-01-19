@@ -15,7 +15,7 @@ header {
   font-size: large;
 }
 
-h4 .intro-line{
+.intro-line {
   font-size: 30px;
   margin-top: 20px;
   display: flex;
@@ -36,7 +36,7 @@ h4 .intro-line{
 }
 
 .words span {
-  line-height: 30px;	
+  line-height: 30px;
   position: absolute;
   width: 100%;
   opacity: 0;
@@ -55,7 +55,6 @@ h4 .intro-line{
   40%  { opacity: 0; transform: translateX(-20px); }
   100% { opacity: 0; transform: translateX(-20px); }
 }
-
 
 .main {
   display:inline-table;
@@ -102,4 +101,5 @@ button{
   font-size: 15px;
   display: inline-block;
   
+
 }
