@@ -27,7 +27,7 @@ header {
   position: relative;
   height: 30px;
   overflow: hidden;
-  width: 26ch;             
+  width: auto;             
 }
 
 .words span {
@@ -99,6 +99,7 @@ button{
   
 
 }
+
 
 
 
