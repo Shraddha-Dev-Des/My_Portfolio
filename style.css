@@ -21,40 +21,22 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .words {
   display: inline-block;
-  overflow: hidden;
-  height: 30px;
-  margin-left: 10px;
   position: relative;
-  vertical-align: middle;
-  width: auto;          
-  
-}
-
-.words {
-  display: inline-block;
-  overflow: hidden;
   height: 30px;
-  margin-left: 10px;
-  position: relative;
-  vertical-align: middle;
-  width: auto;          
-  min-width: 220px;     
+  overflow: hidden;
 }
-
 
 .words span {
-  line-height: 30px;
   position: absolute;
-  width: 100%;
+  line-height: 30px;
+  white-space: nowrap;
   opacity: 0;
   animation: slide-horizontal 8s infinite;
-  white-space: nowrap;
 }
 
 .words span:nth-child(1) { animation-delay: 0s; }
@@ -116,6 +98,7 @@ button{
   
 
 }
+
 
 
 
